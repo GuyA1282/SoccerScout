@@ -1,0 +1,6 @@
+{
+  "surnames_high_prob": ["cohen", "levi", "katz", "friedman", "goldstein"],
+  "surnames_med_prob": ["klein", "miller", "hoffman", "rosen", "weiss"],
+  "first_names_biblical": ["avi", "yakov", "moshe", "aaron", "eli", "david"],
+  "jewish_hubs_cities": ["buenos aires", "paris", "new york", "london", "antwerp"]
+}
