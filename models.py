@@ -20,6 +20,9 @@ class Player(Base):
 		self.jewish_probability = jewish_probability
 
 
+engine = create_engine('sqlite:///scouting.db', echo=False)
+
+Session = sessionmaker(bind=engine)
 
 if __name__ == "__main__":
 	engine = create_engine('sqlite:///scouting.db', echo=True)
