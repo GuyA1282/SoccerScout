@@ -8,17 +8,17 @@ class Player(Base):
 	__tablename__ = 'players'
 	
 	id = Column(Integer, primary_key=True)
-	first_name = Column(String)
-	last_name = Column(String)
-	age = Column(Integer)
-	league = Column(String)
-	jewish_score = Column(Float, default=0.0)
+	name = Column(String)
+	nationality = Column(String)
+	birth_city = Column(String)
+	jewish_probability = Column(Float, default=0.0)
 	
-	def __init__(self, first_name, last_name, age, league):
-		self.first_name = first_name
-		self.last_name = last_name
-		self.age = age
-		self.league = league
+	def __init__(self, name, nationality, birth_city, jewish_probability=0.0):
+		self.name = name
+		self.nationality = nationality
+		self.birth_city = birth_city
+		self.jewish_probability = jewish_probability
+
 
 
 if __name__ == "__main__":
